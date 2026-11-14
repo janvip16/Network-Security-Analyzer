@@ -1,9 +1,0 @@
-flow_id,timestamp_utc,src_ip,src_port,dst_ip,dst_port,protocol,bytes_out,bytes_in,duration_seconds,label,notes
-FLOW-001,2026-10-19T08:00:01Z,192.0.2.10,51514,192.0.2.53,53,DNS,74,128,0.02,expected,Client DNS lookup to training resolver.
-FLOW-002,2026-10-19T08:01:18Z,192.0.2.10,51521,198.51.100.80,443,TLS,812,4200,2.3,expected,Fictional documentation-range destination.
-FLOW-003,2026-10-19T08:14:05Z,192.0.2.25,51990,203.0.113.77,443,TLS,2800,500,18.2,review,"Large outbound-to-inbound ratio; needs context, not proof of exfiltration."
-FLOW-004,2026-10-19T08:14:09Z,192.0.2.25,51991,203.0.113.77,443,TLS,3020,480,19.1,review,Repeated connection close in time to FLOW-003.
-FLOW-005,2026-10-19T08:20:00Z,192.0.2.40,53001,192.0.2.53,53,DNS,82,140,0.01,expected,Scheduled backup host name lookup.
-FLOW-006,2026-10-19T09:10:44Z,192.0.2.31,54001,198.51.100.99,22,SSH,1400,1800,12.0,review,SSH flow in synthetic fixture; check approved asset inventory.
-FLOW-007,2026-10-19T09:11:00Z,192.0.2.31,54002,198.51.100.99,22,SSH,1420,1750,12.2,review,Near-duplicate flow for deduplication test.
-FLOW-008,2026-10-19T09:30:00Z,192.0.2.10,51588,192.0.2.53,53,DNS,70,119,0.01,expected,Routine lookup.
