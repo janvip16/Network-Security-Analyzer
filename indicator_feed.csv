@@ -1,6 +1,0 @@
-indicator,indicator_type,source_name,source_confidence,first_seen_utc,last_seen_utc,fixture_label,analyst_comment
-203.0.113.77,ipv4,RedKross training feed,medium,2026-10-19T08:00:00Z,2026-10-19T10:00:00Z,training_suspicious,Documentation-range address; use as a test indicator only.
-198.51.100.80,ipv4,RedKross training feed,low,2026-10-19T07:00:00Z,2026-10-19T07:00:00Z,training_benign,Documentation-range address; benign fixture.
-login-example.example.com,domain,RedKross training feed,medium,2026-10-18T12:00:00Z,2026-10-19T12:00:00Z,training_suspicious,Reserved example domain; never resolve or treat as a real malicious domain.
-updates.example.net,domain,RedKross training feed,low,2026-10-01T00:00:00Z,2026-10-19T00:00:00Z,training_benign,Reserved example domain; benign fixture.
-203.0.113.91,ipv4,RedKross training feed,medium,2026-10-19T09:00:00Z,2026-10-19T10:00:00Z,training_suspicious,Documentation-range address tied to repeated failed logins in synthetic logs.
