@@ -1,0 +1,6 @@
+PCAP TASK NOTE
+The starter pack includes flow summaries and indicator fixtures that can be used immediately. If your assigned task specifically requires packet-level analysis, download a small sample PCAP from an official training source:
+- Wireshark Sample Captures: https://wiki.wireshark.org/SampleCaptures
+- Zeek Packet Traces: https://github.com/zeek/zeek/wiki/Packet-Traces
+
+Choose a small, clearly documented capture. Keep a note of the original filename and source URL. Do not capture traffic from a public, workplace, college or household network without explicit permission. Do not upload captures containing real personal information.
