@@ -1,0 +1,5 @@
+case_id,indicator,expected_handling,why
+NET-T01,203.0.113.77,flag_for_context,Correlates with repeated authentication failures in synthetic logs.
+NET-T02,198.51.100.80,do_not_escalate_alone,Fixture is labelled benign; avoid treating an indicator match as proof.
+NET-T03,login-example.example.com,training_only,Reserved example domain; no live lookup is needed.
+NET-T04,203.0.113.91,correlate_with_auth_logs,Repeated failures appear in the synthetic authentication dataset.
