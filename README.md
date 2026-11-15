@@ -65,3 +65,7 @@ Sample IP addresses and indicators are for training and testing. An indicator ma
 
 ## 10. Project Purpose
 This project demonstrates basic network traffic analysis, indicator matching, and security investigation workflows.
+
+## Project Demo Video
+
+[Watch Project Demonstration](https://drive.google.com/drive/folders/1QnvP1HZTSUfKgmu_5-BbiWJ2mcPL9Jaa)
